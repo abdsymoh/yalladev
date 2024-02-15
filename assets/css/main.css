@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "Readex Pro";
+  src: url("../fonts/ReadexPro-Variable.ttf");
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-size: 15px;
+  font-family: "Readex Pro";
+}
+
+html {
+  direction: rtl;
+}
+
+body {
+  background-color: #2b2b2b;
+}
+
+.yalladev {
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
+  height: 100svh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column wrap;
+}
+
+img {
+  display: flex;
+  width: 350px;
+  border-radius: 50%;
+}
+
+p {
+  color: #f0f0f0;
+  font-size: 32px;
+  margin-top: -50px;
+}
